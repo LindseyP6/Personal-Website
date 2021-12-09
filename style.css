@@ -1,4 +1,98 @@
 body {
-    background: #d5f7ef;
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./images/background3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  float: right;
+  font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
   }
+
+  a:link {
+    color: #16537e;
+  }
+  
+  a:visited {
+    color: #6a329f;
+  }
+  
+  a:hover {
+    color: #167e6d;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: white;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+    color: #75c5b2;
+    line-height: 25px;
+  }
+
+.about-me {
+  position: absolute;
+	top: 205px;
+  left: 70px;
+  border: 1px solid white;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #bdf8ea;
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll; 
+  cursor: crosshair;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #d4fdf3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #90bfb4;
+  border-radius: 6px;
+}
+
+.projects {
+  position: absolute;
+	bottom: 40px;
+  left: 70px;
+  border: 1px solid white;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #bdf8ea;
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll; 
+  cursor: pointer;
+}
+
+
+.cats {
+  position: absolute;
+	bottom: 150px;
+  right: 22px;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #bdf8ea;
+  width: 400px;
+  height: 200px;
+}
+
+img {
+  display: inline;
+  padding: 5px;
+}
+
+button {
+  display: block;
+  background: #6a329f;
+  color: #bdf8ea;
+  position: center;
+}
